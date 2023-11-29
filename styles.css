@@ -1,0 +1,37 @@
+body{ /* Estilizar o corpo da Pagina*/
+    font-family: Helvetica; /*Fonte do texto da pagina*/
+    text-align: center; /*texto centralizado*/
+    color:white;/* cor do texto*/
+    background-color: rgb(59, 48, 48);/* cor do fundo da pagina*/
+    padding: 0 ;
+    margin: 0 ;
+
+}
+nav{ /*Estilizar a barra de navegação*/
+    display: flex;/* Estiliza os elementos da barra de navegação lado a lado*/
+    justify-content: space-between;/* Cria espaçamento dos elementos em cada canto da pagina*/
+    padding: 10px;/* Espaçamento/ ajusta os elementos afastando da lateral da pagina*/
+    border-bottom: 1px solid color gray;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+ul li{
+    margin-right: 12px;
+}
+ul li a {
+    color:white
+}
+h1 {
+    font-size: 32px;
+}
+img{
+    border: 3px solid rgb(0, 125, 83)5) 132, 255);
+}
+footer{
+    padding:20px ;
+    border-top: 1px solid #f5f1f1;
+    margin-top: 20px;
+}
